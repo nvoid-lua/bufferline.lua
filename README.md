@@ -1,4 +1,6 @@
 # bufferline.lua
+![bufferline](https://github.com/nvoid-lua/bufferline.lua/assets/94284073/d090e833-7b74-43c3-8ff4-ba91c51b65f9)
+
 A fast bufferline based on nvchad's tabufline
 
 ## Install
