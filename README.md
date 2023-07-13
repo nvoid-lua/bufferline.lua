@@ -11,10 +11,10 @@ A fast bufferline based on nvchad's tabufline
 use {
     "nvoid-lua/bufferline.lua",
     requires = 'nvim-tree/nvim-web-devicons',
-    config = function
+    config = function()
         require("bufferline").setup({ kind_icons = true })
     end,
-}
+},
 ```
 
 ### Lazy
@@ -23,10 +23,10 @@ use {
 {
     "nvoid-lua/bufferline.lua",
     dependencies = 'nvim-tree/nvim-web-devicons',
-    config = function
+    config = function()
         require("bufferline").setup({ kind_icons = true })
     end,
-}
+},
 ```
 
 ## Setup
