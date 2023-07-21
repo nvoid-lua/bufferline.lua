@@ -28,7 +28,7 @@ end
 
 function M.prevbuffer()
 	local bufs = utils.bufilter() or {}
-	local curbufIndex = M.getBufIndex(api.nvim_get_current_buf())
+	local curbufIndex = utils.getBufIndex(api.nvim_get_current_buf())
 
 	if not curbufIndex then
 		vim.cmd("b" .. vim.t.bufs[1])
